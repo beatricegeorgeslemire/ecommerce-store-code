@@ -473,7 +473,7 @@ a.button:focus {
 }
 
 header {
-  background-color: #f8fbf3;
+  background-color: #e8f9d4;
   margin-bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -577,13 +577,13 @@ footer .footerNav nav a:focus {
   margin: 0 auto 20px auto;
 }
 .categoryGallery .itemOne {
-  background-color: #ffd698;
+  background-color: #f9d4d4;
 }
 .categoryGallery .itemTwo {
-  background-color: #f4fcff;
+  background-color: #d4f0f9;
 }
 .categoryGallery .itemThree {
-  background-color: #f8fbf3;
+  background-color: #e8f9d4;
 }
 .categoryGallery .itemFour {
   background-color: #fff5f5;
