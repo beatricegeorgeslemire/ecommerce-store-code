@@ -1,0 +1,7 @@
+# list of all the files and forlder which you do not wush to push up to Github.
+
+.vscode
+
+.DS_Store
+
+designs/
