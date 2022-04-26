@@ -1,0 +1,45 @@
+// products page
+
+.productsMainContent {
+    section {
+        padding: 75px 0;
+    }
+    h2 {
+        text-align: center;
+    }
+    //flex parent
+    .products {
+        display: flex;
+        flex-wrap: wrap;
+
+        li{
+            // because we are using the default flex-direction value, the main axis of alignment 
+        flex-basis: calc((100% / 3) - 30px);
+        margin: 5px 15px;
+        text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            display: block;
+            border-radius: 10px;
+        }
+
+        
+    }
+    .popularProduct {
+            font-weight: 700;
+            padding-top: 15px;
+            
+        }   
+        .discountedPrice {
+                text-decoration: line-through;
+                color: rgba($color: $primary, $alpha: 0.5);
+                span {
+                    display: inline-block;
+                    text-decoration: none;
+                    opacity: 1;
+                    color: rgba($color: $primary, $alpha: 1);
+                }
+            } 
+}
